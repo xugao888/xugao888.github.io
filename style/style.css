@@ -1,0 +1,41 @@
+body{
+    background-color: yellowgreen;
+    color: blue;
+    font-family: Arial
+}
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+section{
+    font-size: 20px;
+    text-align: center;
+}
+.shadow{
+    text-shadow: 2px 2px palegreen;
+}
+.key{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:1000px){
+ .container2{
+   display: flex;
+   text-align: center;
+   justify-content:space-around;
+   }
+}
+
+.container2 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+  
+.box{
+    flex-basis: 30%;
+}
